@@ -7,6 +7,7 @@ const PhotoCard = () => {
       <img style={{width: '10em', height: '10em', borderRadius: '5em'}} src={joshdonaldson}></img>
       <div>Имя Фамилия</div>
     </div>
+    
   )
 }
 
