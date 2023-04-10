@@ -7,7 +7,6 @@ import Skills from './Components/Pages/Skills';
 import { Route, Routes } from 'react-router-dom';
 
 
-
 function App() {
   return (
     <div style={{ display: 'flex',
