@@ -1,0 +1,24 @@
+ 
+.PhotoCard{
+ display: flex;
+  justify-content: center;
+    flex-direction: column;
+   
+  }
+  
+  .img{
+    width: 17em; 
+    height: 17em;
+    border-radius: 6em;
+    border-color: azure;
+    border: solid .3em;
+}
+
+    .divBox{
+        display: flex;
+        justify-content: center;
+        color: antiquewhite;
+        margin-bottom: 1em;
+        
+    }
+  

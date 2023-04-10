@@ -1,0 +1,8 @@
+.MenuList{
+    background: linear-gradient(90deg, rgba(1,15,93,1) 0%, rgba(19,27,75,1) 35%, rgba(37,40,57,1) 100%);
+    display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 20vw;
+  flex-direction: column;
+}

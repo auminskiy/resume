@@ -18,7 +18,6 @@ const MenuItemsList = () => {
       <NavLink className={ navData => navData.isActive ? s.active : s.a} to='/skills'>Скилы</NavLink>
     </div>
   </nav>
-   
   
   )
 }

@@ -1,11 +1,15 @@
 import React from 'react'
 import joshdonaldson from '../../img/joshdonaldson.png'
-
+import s from "./PhotoCard.module.css"
 const PhotoCard = () => {
   return (
-    <div>
-      <img style={{width: '10em', height: '10em', borderRadius: '5em'}} src={joshdonaldson}></img>
-      <div>Имя Фамилия</div>
+    <div className={s.PhotoCard}>
+      <div className={s.divBox}>
+      <img className={s.img} src={joshdonaldson}></img>
+      </div>
+      <div className={s.divBox}>
+       <h2>Имя Фамилия</h2> 
+        </div>
     </div>
     
   )
